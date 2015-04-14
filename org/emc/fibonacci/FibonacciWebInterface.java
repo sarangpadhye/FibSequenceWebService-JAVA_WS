@@ -8,6 +8,9 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 
+/*
+ * Interface to define the WebService and the Webmethods
+ */
 @WebService(name="FibonacciWebService")
 public interface FibonacciWebInterface {
 

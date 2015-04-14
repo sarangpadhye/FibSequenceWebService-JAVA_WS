@@ -6,6 +6,9 @@ import java.util.List;
 
 import javax.jws.WebService;
 
+/*
+ * Implementation of Fibonacci as a Web service
+ */
 @WebService(endpointInterface = "org.emc.fibonacci.FibonacciWebInterface", portName = "FibonacciSequencePortName", serviceName = "FibonacciSequenceService")
 public class fibinacciWebService implements FibonacciWebInterface {
 
