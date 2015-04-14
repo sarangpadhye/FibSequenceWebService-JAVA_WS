@@ -43,7 +43,9 @@ Consuming the Service :
 
 2) Go to the directory of the project and in the src directory execute the following command
 via command line
+
 wsimport -keep http://localhost:8080/FibonacciWebService/FibonacciSequenceService?wsdl
+
 A package with target org.emc.fibonacci should be created in src with all the required
 source files. The GlassFish server should be running locally while doing this activity.
 
