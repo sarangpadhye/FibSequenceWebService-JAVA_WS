@@ -26,16 +26,21 @@ Deploying the Web Service :
 -------------------------------
 1) Create a new "Dynamic Web Project" in Eclipse EE. Copy the package org.emg.fibonacci
 in Java Resources/src
+
 2) Right click the project and select "Build Project".
+
 3) Right click on the project and select "Run As" , "Run on Server". This deploys
 the Webservice.
+
 4) The Webservice deployed can be seen on the admin path for the GlassFish under
 Applications tab.
+
 5) A WSDL generated would look like this --> http://localhost:8080/FibonacciWebService/FibonacciSequenceService?wsdl
 
 Consuming the Service :
 --------------------------------
 1) Create a JAVA project in eclipse.
+
 2) Go to the directory of the project and in the src directory execute the following command
 via command line
 wsimport -keep http://localhost:8080/FibonacciWebService/FibonacciSequenceService?wsdl
@@ -54,6 +59,8 @@ How to use SOAP UI
 --------------------------------
 1) Download the free version of SOAP UI.
 http://sourceforge.net/projects/soapui/?source=typ_redirect
+
 2) Click on the File>>Import project. Give the path to the saved file "FibSequence-soapui-project.xml"
+
 3) Run the Test Suite and see the results.
 http://www.soapui.org/functional-testing/reference/testsuite-reference.html
