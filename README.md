@@ -1,7 +1,7 @@
 # FibSequenceWebService-JAVA_WS
 A Web Service which generates a fibonacci sequence
 
-Overview
+Overview :
 This project creates a web service to generates first n fibonacci numbers upon giving
 n as the input number. This project uses the SOAP as a protocol for messaging
 between the WebService and any program which wishes to consume this service. More 
@@ -44,7 +44,20 @@ wsimport -keep http://localhost:8080/FibonacciWebService/FibonacciSequenceServic
 A package with target org.emc.fibonacci should be created in src with all the required
 source files. The GlassFish server should be running locally while doing this activity.
 
-3) Copy the file Fibonacciclient.java and place in the src or any other package.
+3) Copy the file Fibonacciclient.java and place in the src or any other package in the same project.
 Run the code and check the results.
 
 
+Test the Webservice
+1) This Web Service has been tested using the SOAPUI tool. The project included as 
+a SOAPUI Project "FibSequence-soapui-project.xml" contains a test suite with test suite.
+
+How to use SOAP UI
+
+1) Download the free version of SOAP UI.
+http://sourceforge.net/projects/soapui/?source=typ_redirect
+
+2) Click on the File>>Import project. Give the path to the saved file "FibSequence-soapui-project.xml"
+
+3) Run the Test Suite and see the results.
+http://www.soapui.org/functional-testing/reference/testsuite-reference.html
