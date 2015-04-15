@@ -58,7 +58,7 @@ Run the code and check the results.
 Test the Webservice
 --------------------------------
 1) This Web Service has been tested using the SOAPUI tool. The project included as 
-a SOAPUI Project "FibSequence-soapui-project.xml" contains a test suite with test suite.
+a SOAPUI Project "FibSequence-soapui-project.xml" contains a test suite with test cases.
 
 How to use SOAP UI
 --------------------------------
